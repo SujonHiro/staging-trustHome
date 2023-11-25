@@ -7,12 +7,15 @@
     text-decoration: none;
     font-weight: 500;
     border-radius: 3px;
+    width: 350px;
+    height: 40px;
 }
+
+
 .loginBtn:hover{
     padding: 5px 10px;
-    color: black;
-    background: rgb(250, 204, 0);
-    border: 2px solid rgb(250, 204, 0);
+    background: rgb(221, 34, 1);
+    border: 2px solid rgb(221, 34, 1);
     text-transform: capitalize;
     text-decoration: none;
     font-weight: 500;
@@ -54,7 +57,4 @@
 #forterms span{
     color: red;
     cursor: pointer;
-}
-#forterms span:hover{
-    color: blue;
 }

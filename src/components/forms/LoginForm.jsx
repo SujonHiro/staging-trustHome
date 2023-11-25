@@ -46,13 +46,12 @@ const LoginForm = () => {
                           Buyer
                         </label>
                       </div>
-                      <div className="mb-3 my-1" id="forterms">
-                      
-                      <span><input class="form-check-input me-1" type="checkbox" value="" id="flexCheckDefault"/> terms and conditions</span>
+                      <div className="mb-3 my-2" id="forterms">
+                      <span><input class="form-check-input me-1" type="checkbox" value="" id="flexCheckDefault"/> Keep me signed in </span>
                         </div>
                       <div className="mb-3 mx-auto d-flex gap-2 justify-content-center mt-2 position-relative">
-                              <button type="button" className="loginBtn" >Login Now <FiLogIn/></button>
-                            <button type="button" className="regisBtn" >Registraion <FiLogIn/></button>
+                              <button type="button" className="loginBtn" >Login Now <span><FiLogIn/></span></button>
+
                       </div>
                     </div>
                   </div>
