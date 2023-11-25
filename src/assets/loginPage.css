@@ -1,0 +1,60 @@
+.loginBtn{
+    padding: 5px 10px;
+    color: white;
+    background: rgb(255, 38, 0);
+    border: 2px solid rgb(255, 38, 0);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.loginBtn:hover{
+    padding: 5px 10px;
+    color: black;
+    background: rgb(250, 204, 0);
+    border: 2px solid rgb(250, 204, 0);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.regisBtn{
+    padding: 5px 10px;
+    color: black;
+    background: rgb(250, 204, 0);
+    border: 2px rgb(250, 204, 0);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.regisBtn:hover{
+    padding: 5px 10px;
+    color: white;
+    background: rgb(248, 50, 0);
+    border: 2px rgb(248, 50, 0);
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+#flexRadioDefault1:checked{
+    background-color: red !important;
+    border: red !important;
+}
+.loginImage{
+    background-position: cover;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    width: 100%;
+    height: 200px;
+}
+
+#forterms span{
+    color: red;
+    cursor: pointer;
+}
+#forterms span:hover{
+    color: blue;
+}
